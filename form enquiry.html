@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html lang="en-UK">
+
+<head>
+
+<title>            </title>
+
+ <meta charset="utf-8">
+
+</head>
+
+
+
+
+
+<body style="background-color:lightblue">
+
+
+<h1>ENQUIRY FORM:</h1>
+
+
+
+
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg>
+
+<svg width="400" height="110">
+  <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+</svg>
+<svg width="400" height="180">
+  <rect x="50" y="20" width="150" height="150"
+  style="fill:blue;stroke:pink;stroke-width:5;fill-opacity:0.1;stroke-opacity:0.9" />
+</svg>
+
+
+<svg width="400" height="180">
+  <rect x="50" y="20" width="150" height="150"
+  style="fill:blue;stroke:pink;stroke-width:5;opacity:0.5" />
+</svg>
+
+<svg width="400" height="180">
+  <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+  style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+</svg>
+
+
+
+<svg height="100" width="100">
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+</svg>
+
+
+
+<svg height="140" width="500">
+  <ellipse cx="200" cy="80" rx="100" ry="50"
+  style="fill:yellow;stroke:purple;stroke-width:2" />
+</svg>
+
+
+<svg height="150" width="500">
+  <ellipse cx="240" cy="100" rx="220" ry="30" style="fill:purple" />
+  <ellipse cx="220" cy="70" rx="190" ry="20" style="fill:lime" />
+  <ellipse cx="210" cy="45" rx="170" ry="15" style="fill:yellow" />
+</svg>
+
+
+<svg height="100" width="500">
+  <ellipse cx="240" cy="50" rx="220" ry="30" style="fill:yellow" />
+  <ellipse cx="220" cy="50" rx="190" ry="20" style="fill:white" />
+</svg>
+
+
+<svg height="210" width="500">
+  <line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+</svg>
+
+
+<svg height="210" width="500">
+  <polygon points="200,10 250,190 160,210" style="fill:lime;stroke:purple;stroke-width:1" />
+</svg>
+
+
+
+<svg height="250" width="500">
+  <polygon points="220,10 300,210 170,250 123,234" style="fill:lime;stroke:purple;stroke-width:1" />
+</svg>
+
+
+
+
+
+
+
+
+
+
+<svg height="210" width="500">
+  <polygon points="100,10 40,198 190,78 10,78 160,198"
+  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:nonzero;" />
+</svg>
+
+
+
+
+<svg height="210" width="500">
+  <polygon points="100,10 40,198 190,78 10,78 160,198"
+  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+</svg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form action="action_page.php" method="post" >
+<fieldset>
+  <legend>Contact Details</legend>
+ 
+  
+ 
+  
+  First Name :<input type="text"><br>
+  
+Surname:			:<input type="text" size="70"autocomplete="on" ><br>
+Contact Telephone No. :<input type="text" size="70"><br>
+Contact Email Address :<input type="text" size="70"><br>
+
+
+
+<!--
+Number of Passengers - Drop-down List  ==  <select>
+Specifics (Swimming Pool, Internet Access) - Check Boxes
+Package Type (Flight Only, Flight and Hotel etc.) - Radio Button
+
+
+
+
+
+
+
+
+1.DROPDOWN EXAMPLE
+
+select >
+<option value="volvo"></option>
+<option value="volvo">1</option>
+  <option value="saab">2</option>
+  <option value="mercedes">3</option>
+  <option value="audi">4</option>
+</select><br>
+
+
+2. CHECKBOXES EXAMPLE 
+
+<form action="">
+<input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+<input type="checkbox" name="vehicle" value="Car">I have a car
+</form>
+
+
+
+
+3.RADIO EXAMPLE
+<form>
+  <input type="radio" name="gender" value="male" checked> Male<br>  <<===CHECKED
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+</form>
+
+
+
+USEFUL AND INTERESTING ATTRIBUTES:
+
+size="140"   ATRRIBUTE OF <INPUT> SPECIFIES LENGHT OF ENQUIRY BOX 
+maxlength="10"
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+
+
+
+
+<select >
+<option value="volvo"></option>
+<option value="volvo">1</option>
+  <option value="saab">2</option>
+  <option value="mercedes">3</option>
+  <option value="audi">4</option>
+</select><br>
+
+
+<input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+<input type="checkbox" name="vehicle" value="Car">I have a car<br>
+
+
+
+  <input type="radio" name="gender" value="	" > Male<br>
+  <input type="radio" name="gender" value="	"> Female<br>
+  <input type="radio" name="gender" value="	"> Other
+
+
+
+
+
+
+
+Flight From – :<input type="text"><br>
+Flight To :<input type="text"><br>
+Departing Date :<input type="text"><br>
+Returning Date :<input type="text"><br>
+
+
+
+
+
+
+Further Information:
+<textarea rows="10" cols="70">
+Please enter if you have any specific requests. We are happy to help.
+</textarea><br>
+
+
+
+
+<!--
+  <input type="reset">
+  <input type="submit">
+Reset Button
+Submit Button   
+  
+  
+   <button type="button" onclick="alert('zaczynaj od nowa')")">Click Me!</button>
+   
+   
+   
+  onclick="alert('Thank You')"
+-->
+  
+  
+  <button type="submit" value="Submit"onclick="alert('Thank You')" >Submit</button><br><br><br><br><br>
+  <button type="reset" value="Reset")">Reset</button>
+
+
+
+  
+  
+ </fieldset>
+</form>
+  
+  
+  
+  
+
+</body>
+
+
+
+</html>

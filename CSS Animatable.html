@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en-UK">
+
+<head>
+
+<title>            </title>
+
+ <meta charset="utf-8">
+<style>
+
+
+#myfirstanimatable{
+    width: 677px;
+    height: 500px;
+    background: red;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+
+
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+
+
+
+
+/* Standard syntax */
+@keyframes mymove {
+    from {background-color: orange;}
+    to {background-color: blue;}
+}
+
+
+
+
+
+.highlight{color:red;}
+
+
+
+
+p{
+
+
+color:MistyRose;
+font:courier;
+font-size:200%;
+background:purple;
+
+border:13px solid black;
+
+
+}
+
+
+.img {
+    display: block;
+    margin:0 auto;
+	position: relative;
+    left: 40px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 50px;
+	
+}
+
+
+
+
+</style>
+
+
+</head>
+
+
+
+
+
+<body style="background-color:lightblue">
+
+<p>Gradually change the background-color from orange to blue:<p>
+
+
+
+<div id="myfirstanimatable">
+<h1><span class="highlight">nauka</span></h1>
+
+  <div class="img">  xxx  <img src=" 1.jpg" alt=" " style="width:400px;height:300px;">  xxx      </div>
+
+
+</div>
+
+
+<div id="myfirstanimatable">
+<h1><span>ramanudzowanie</span></h1>
+</div>
+
+
+<div id="myfirstanimatable">
+<h1><span>medytacja mnemo</span></h1>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<p>The background-position property is <em>animatable</em> in CSS.</p>
+<p><strong>Note:</strong> CSS Animations do not work in Internet Explorer 9 and earlier versions.</p>
+
+
+<img src="1.jpg" alt="" style="width:200px; height:200;">
+
+</body>
+
+
+
+</html>
